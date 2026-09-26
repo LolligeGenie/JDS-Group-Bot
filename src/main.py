@@ -47,6 +47,10 @@ async def status(ctx):
     await ctx.send(f"I'm alive, \nand logged in as '{client.user}', \n**Ping:** *{round(client.latency * 1000)}*")
     await ctx.send(f":sweat_smile:")
 
+@client.command()
+async def ping(ctx)
+    await ctx.send("pong")
+
 #? ......................[ Run ]...............................
 if __name__ == '__main__' :
     client.run(str(_Token))
